@@ -1,0 +1,14 @@
+{% extends "_layouts/default.njk" %}
+
+{% block body %}
+  <div class="content">
+    <string> Agendado horário</strong>
+
+    <div class="provider">
+      <div>
+        <img src="/files/{{ provider.avatar }}" />
+        <strong>{{ provider.name }}</strong>
+      </div>
+    </div>
+  </div>
+{% endblock %}
